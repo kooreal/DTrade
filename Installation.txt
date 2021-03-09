@@ -1,0 +1,7 @@
+git init
+git clone https://github.com/lukasyelle/DTrade.git
+composer install
+cp .env.example .env
+setup env file
+add .htaccess
+php artisan key:generate
